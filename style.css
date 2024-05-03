@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  .game {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: blue;
+  }
+  
+  .row {
+    display: flex;
+    
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    
+
+  }
+  
+  .cell:hover {
+    background-color: lightgray;
+    color: aqua;
+
+  }
+  
+  #result {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  #reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
